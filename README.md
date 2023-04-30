@@ -7,8 +7,8 @@ Ein kleines Python Script welches dafür genutzt werden kann den DNS Record von 
 Es wird eine .env Datei mit folgenden Einträgen benötigt:
 
 ```bash
-DNS_ZONE='meinedomaine.de'
-DYNDNS_NAMES='subdomaine'
+DNS_ZONE='meinedomain.de'
+DYNDNS_NAMES='subdomain'
 API_KEY='meinAPIKey'
 ```
 
