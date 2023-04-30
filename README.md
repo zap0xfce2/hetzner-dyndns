@@ -4,7 +4,7 @@ Ein kleines Python Script welches dafür genutzt werden kann den DNS Record von 
 
 ## Verwendung
 
-Es wird eine .env Datei mit folgenden einträgen benötigt:
+Es wird eine .env Datei mit folgenden Einträgen benötigt:
 
 ```bash
 DNS_ZONE='meinedomaine.de'
