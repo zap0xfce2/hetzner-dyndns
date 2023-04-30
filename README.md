@@ -8,11 +8,11 @@ Es wird eine .env Datei mit folgenden Einträgen benötigt:
 
 ```bash
 DNS_ZONE='meinedomain.de'
-DYNDNS_NAMES='subdomain'
+DYNDNS_NAMES='subdomain1,subdomain2'
 API_KEY='meinAPIKey'
 ```
 
-Ein API Key kann in der Hetzner DNS Console erstellt werden (Manage API tokens)
+Ein API Key kann in der Hetzner DNS Console erstellt werden (Manage API tokens). Als DYNDNS_NAMES kann entweder ein Wert oder von Komma getrennte Werte angegeben werden.
 
 ## Dank
 
