@@ -13,3 +13,13 @@ API_KEY='meinAPIKey'
 ```
 
 Ein API Key kann in der Hetzner Console erstellt werden (Sicherheit->API-Tokens). Als DYNDNS_NAMES kann entweder ein Wert oder von Komma getrennte Werte angegeben werden.
+
+Ohne Parameter läuft das Script einmal durch. Mit `--interval` wiederholt es die Prüfung in festen Abständen (Angabe in Sekunden):
+
+```bash
+# einmalig
+uv run hetzner-dyndns.py
+
+# alle 10 Minuten
+uv run hetzner-dyndns.py --interval 600
+```

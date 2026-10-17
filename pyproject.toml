@@ -1,0 +1,19 @@
+[project]
+name = "hetzner-dyndns"
+version = "1.0.0"
+description = "Setzt Hetzner-DNS-A-Records auf die eigene externe IP."
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+build = [
+    "nuitka",
+    "patchelf<0.18",
+]
+
+[tool.uv]
+package = false
